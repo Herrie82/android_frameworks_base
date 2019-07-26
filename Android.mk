@@ -33,6 +33,8 @@ framework_res_source_path := APPS/framework-res_intermediates/src
 # ============================================================
 
 # embedded builds use nothing in frameworks/base
+
+ANDROID_BUILD_EMBEDDED := true
 ifneq ($(ANDROID_BUILD_EMBEDDED),true)
 
 include $(CLEAR_VARS)
